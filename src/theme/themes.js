@@ -2,7 +2,7 @@ export const theme_one = {
     primary: '#ff0198',
     secondary: '#01c1d6',
     danger: '#ff0000',
-    light: '#f4f4f4',
+    light: '#abcdef',
     dark: '#222'
   }
   

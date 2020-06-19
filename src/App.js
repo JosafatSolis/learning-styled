@@ -5,6 +5,7 @@ import styled, { keyframes, ThemeProvider } from "styled-components";
 import { Button } from "./components/Button";
 import { theme_one, theme_two } from "./theme/themes";
 import ThemeSelect from "./components/ThemeSelect";
+import UikitC from "./components/UikitC";
 
 // Todo el css va entre los backtits
 const AppWrapper = styled.div`
@@ -66,6 +67,7 @@ function App() {
         <Button danger>Press Me Danger!!</Button>
         <ThemeSelect handleThemeChange={handleThemeChange} />
       </AppWrapper>
+      <UikitC />
     </ThemeProvider>
   );
 }
