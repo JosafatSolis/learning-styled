@@ -8,6 +8,7 @@ import ThemeSelect from "./components/ThemeSelect";
 import UikitC from "./components/UikitC";
 
 // Todo el css va entre los backtits
+// ATENCIÓN: Las constantes DEBEN INICIAR CON MAYÚSCULAS, si no, no toma los estilos.
 const AppWrapper = styled.div`
   text-align: center;
 `;
